@@ -43,11 +43,7 @@
 /* ANIMATIONS */
 
 .x1 {
-  -webkit-animation: animateCloud 35s linear infinite;
-  -moz-animation: animateCloud 35s linear infinite;
   animation: animateCloud 35s linear infinite;
-  -webkit-transform: scale(0.65);
-  -moz-transform: scale(0.65);
   transform: scale(0.65);
 }
 
@@ -79,7 +75,7 @@
 }
 
 .x5 {
-  -webkit-animation: animateCloud 25s linear infinite;
+  -webkit-animation: animateCloud 32s linear infinite;
   -moz-animation: animateCloud 25s linear infinite;
   animation: animateCloud 25s linear infinite;
   -webkit-transform: scale(0.55);
@@ -87,30 +83,33 @@
   transform: scale(0.55);
 }
 
+.x6 {
+  -webkit-animation: animateCloud 35s linear infinite;
+  -moz-animation: animateCloud 35s linear infinite;
+  animation: animateCloud 35s linear infinite;
+  -webkit-transform: scale(0.65);
+  -moz-transform: scale(0.65);
+  transform: scale(0.65);
+}
+
 /* OBJECTS */
 
 .cloud1:after,
 .cloud1:before {
-  background: #fff;
-  content: '';
   /* //position: absolute; */
   z-indeX: -1;
 }
 
 .cloud2:after,
 .cloud2:before {
-  background: #fff;
-  content: '';
   /* //position: absolute; */
-  z-indeX: -1;
+  z-indeX: 0;
 }
 
 .cloud3:after,
 .cloud3:before {
-  background: #fff;
-  content: '';
   /* //position: absolute; */
-  z-indeX: -1;
+  z-indeX: 1;
 }
 
 

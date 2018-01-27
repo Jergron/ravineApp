@@ -1,21 +1,11 @@
-<div id="background-wrap">
-  <div class="x1">
-    <img class="cloud1" src="../assets/BGCloud1.png">
-  </div>
-
-  <div class="x2">
-    <img class="cloud2" src="../assets/BGCloud2.png">
-  </div>
-
-  <div class="x3">
-    <img class="cloud3" src="../assets/BGCloud3.png">
-  </div>
-
-  <div class="x4">
-    <div class="cloud"></div>
-  </div>
-
-  <div class="x5">
-    <div class="cloud"></div>
+<div *ngFor="let cloud of billowClouds" id="background-wrap">
+  <div class="{{cloud.speed}}">
+    <img class="{{cloud.class}}" src="{{cloud.path}}">
   </div>
 </div>
+<div *ngFor="let cloud of darkClouds" id="background-wrap">
+  <div class="{{cloud.speed}}">
+    <img class="{{cloud.class}}" src="{{cloud.path}}">
+  </div>
+</div>
+

@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+/* body {
+    background-image: linear-gradient(120deg, #cfd9df 0%, #e2ebf0 100%);
+
+} */
+
+body {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  color: #333;
+  font: 100% Arial, Sans Serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+#background-wrap {
+  bottom: 0;
+  left: 0;
+  padding-top: 50px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
